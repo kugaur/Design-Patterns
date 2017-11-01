@@ -17,7 +17,7 @@ public class GenerateBill {
         Plan commercialPlan = planFactory.getPlan("COMMERCIAL");
         commercialPlan.calculateBill(123);
 
-        // Commercial
+        // Institutional
         Plan institutionalPlan = planFactory.getPlan("INSTITUTIONAL");
         institutionalPlan.calculateBill(123);
     }
