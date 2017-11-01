@@ -5,8 +5,8 @@ package com.designpatterns.factorymethod;
  */
 public class GetPlanFactory {
 
-	public Plan getPlan(String planType) 
-			throws InstantiationException, IllegalAccessException, ClassNotFoundException {
-		return (Plan) Class.forName(PlanType.valueOf(planType).getPlanType()).newInstance();
-	}
+    public Plan getPlan(String planType)
+        throws InstantiationException, IllegalAccessException, ClassNotFoundException {
+        return (Plan)Class.forName(PlanType.valueOf(planType).getPlanType()).newInstance();
+    }
 }

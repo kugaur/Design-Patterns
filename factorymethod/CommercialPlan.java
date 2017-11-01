@@ -5,11 +5,11 @@ package com.designpatterns.factorymethod;
  */
 public class CommercialPlan extends Plan {
 
-	private static final double RATE = 7.5;
-	
-	@Override
-	double getRate() {
-		return RATE;
-	}
+    private static final double RATE = 7.5;
+
+    @Override
+    double getRate() {
+        return RATE;
+    }
 
 }
